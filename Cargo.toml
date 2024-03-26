@@ -1,0 +1,7 @@
+[package]
+name = "light_cancel"
+version = "0.1.0"
+authors = ["Maxwell Nogueira Peixoto <maxwellpxt@gmail.com>"]
+edition = "2021"
+
+[dependencies]
