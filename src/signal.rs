@@ -24,7 +24,7 @@ struct CancellationSignal {
     waker: Option<Waker>,
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct CancellationSender {
     signal: Arc<Mutex<CancellationSignal>>,
 }
